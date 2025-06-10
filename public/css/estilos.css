@@ -38,7 +38,7 @@ a:hover {
 
 
 
-.contenedorcontenido { 
+.contenedorcontenido {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -129,6 +129,47 @@ a:hover {
 }
 
 
+/* ---- Estilos para el menu ---- */
+
+/* Header y navegación mejorada */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-fondo-contenedor);
+    color: var(--color-texto);
+    padding: 15px 20px;
+    position: relative;
+    border-radius: 15px;
+}
+
+/* Botón hamburguesa oculto en pantallas grandes */
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: var(--color-primario);
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: black;
+    /* Color de los enlaces del menú */
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 
@@ -136,6 +177,32 @@ a:hover {
 
     body {
         padding: 10px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: var(--color-fondo-contenedor);
+        position: absolute;
+        top: 60px;
+
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu a {
+        margin: 10px 0;
     }
 
     .contenedorcontenido {

@@ -10,7 +10,7 @@ import Footer from '../components/Footer.astro';
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<link rel="stylesheet" href="/src/css/estilos.css" />
+		<link rel="stylesheet" href="/css/estilos.css" />
 		<title>Astro Basics</title>
 	</head>
 	<body>
@@ -19,6 +19,17 @@ import Footer from '../components/Footer.astro';
 			<slot />
 		</div>
 		<Footer />
+		<script is:inline>
+			document.addEventListener("DOMContentLoaded", function () {
+			  const toggle = document.querySelector(".menu-toggle");
+			  const menu = document.querySelector(".menu");
+			  if (toggle && menu) {
+				toggle.addEventListener("click", () => {
+				  menu.classList.toggle("active");
+				});
+			  }
+			});
+		  </script>
 	</body>
 
 </html>
