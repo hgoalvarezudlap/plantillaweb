@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primario: #007b5e;
+    --color-secundario: #005a47;
+    --color-texto: #333;
+    --color-fondo: #f0f0f0;
+    --color-fondo-elementos: #e0e0e0;
+    --color-fondo-contenedor: #ffffff;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primario);
+}
+
+a:hover {
+    color: var(--color-primario);
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.contenedorcontenido { 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contenedorelemento {
+    background-color: var(--color-fondo-elementos);
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedorcontenido h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.griddoscolumnas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    place-items: center;
+}
+
+.gridtrescolumnas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+
+.divparrafo {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.tarjetagrid {
+    background-color: var(--color-fondo-elementos);
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tarjetagrid h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.tarjetagrid p {
+    margin-bottom: 15px;
+}
+
+
+.entidadgrid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.entidadgridelemento {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+}
+
+
+
+
+.articulocard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+.articulocard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .contenedorcontenido {
+        padding: 10px;
+    }
+
+    .contenedorelemento {
+        padding: 10px;
+    }
+
+    .griddoscolumnas {
+        grid-template-columns: 1fr;
+    }
+
+    .gridtrescolumnas {
+        grid-template-columns: 1fr;
+    }
+
+}

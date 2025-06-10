@@ -1,0 +1,13 @@
+---
+const { imagenSrc, imagenAlt, titulo, descripcion } = Astro.props;
+---
+
+<div class="entidadgridelemento">
+  <div>
+    <img src={imagenSrc} alt={imagenAlt} />
+  </div>
+  <div>
+    <h3>{titulo}</h3>
+    <p>{descripcion}</p>
+  </div>
+</div>
