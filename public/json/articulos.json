@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "titulo": "La Licenciatura en Diseño de Productos será clave para el futuro de la innovación y la industria",
+      "url": "https://blog.udlap.mx/blog/2025/06/09/la-licenciatura-en-diseno-de-productos-sera-clave-para-el-futuro-de-la-innovacion-y-la-industria/",
+      "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/diseno-de-productos-udlap-1.jpg",
+      "categoria": "Tecnología",
+      "fecha_publicacion": "2025-06-09"
+    },
+    {
+      "id": 2,
+      "titulo": "La UDLAP alienta el desarrollo de los futuros científicos e ingenieros mexicanos",
+      "url": "https://blog.udlap.mx/blog/2025/06/06/la-udlap-alienta-el-desarrollo-de-los-futuros-cientificos-e-ingenieros-mexicanos/",
+      "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/UDLAP_alienta_el_desarrollo_de_cientificos_ingenieros_3.jpg",
+      "categoria": "Ciberseguridad",
+      "fecha_publicacion": "2025-06-08"
+    },
+    {
+      "id": 3,
+      "titulo": "Entrenadora Azteca UDLAP figura en el Mundial de Taekwondo",
+      "url": "https://blog.udlap.mx/blog/2025/06/05/entrenadora-azteca-udlap-figura-en-el-mundial-de-taekwondo/",
+      "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/Entrenadora_Azteca_UDLAP_figura_en_el_Mundial_de_Taekwondo_2.jpg",
+      "categoria": "Deportes",
+      "fecha_publicacion": "2025-06-05"
+    },
+    {
+      "id": 4,
+      "titulo": "La reconocida poeta y ensayista Carla Faesler dialoga con jóvenes estudiantes de preparatoria y de la UDLAP",
+      "url": "https://blog.udlap.mx/blog/2025/06/04/la-reconocida-poeta-y-ensayista-carla-faesler-dialoga-con-jovenes-estudiantes-de-preparatoria-y-de-la-udlap/",
+      "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/Carla_Faesler_dialoga_con_estudiantes_de_preparatoria_y_la_UDLAP_1.jpg",
+      "categoria": "Ciberseguridad",
+      "fecha_publicacion": "2025-06-04"
+    },
+    {
+        "id": 5,
+        "titulo": "Los Aztecas UDLAP serán atletas olímpicos nacionales",
+        "url": "https://blog.udlap.mx/blog/2025/05/09/12-estudiantes-de-la-universidad-de-las-americas-puebla-dieron-su-mayor-esfuerzo-en-la-etapa-macro-regional-de-olimpiada-de-atletismo-para-ganar-su-boleto-a-representar-a-sus-respectivos-estados-de-o/",
+        "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/05/atletas-udlap-1.jpg",
+        "categoria": "Ciberseguridad",
+        "fecha_publicacion": "2025-06-03"
+      },
+      {
+        "id": 6,
+        "titulo": "UDLAP y CECAMBA presentan concierto conjunto",
+        "url": "https://blog.udlap.mx/blog/2025/05/29/udlap-y-cecamba-presentan-concierto-conjunto/",
+        "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/05/UDLAP_y_CECAMBA_concierto_2.jpg",
+        "categoria": "Ciberseguridad",
+        "fecha_publicacion": "2025-05-29"
+      },
+      {
+        "id": 7,
+        "titulo": "La Licenciatura en Diseño de Productos será clave para el futuro de la innovación y la industria",
+        "url": "https://blog.udlap.mx/blog/2025/06/09/la-licenciatura-en-diseno-de-productos-sera-clave-para-el-futuro-de-la-innovacion-y-la-industria/",
+        "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/diseno-de-productos-udlap-1.jpg",
+        "categoria": "Tecnología",
+        "fecha_publicacion": "2025-06-09"
+      },
+      {
+        "id": 8,
+        "titulo": "La UDLAP alienta el desarrollo de los futuros científicos e ingenieros mexicanos",
+        "url": "https://blog.udlap.mx/blog/2025/06/06/la-udlap-alienta-el-desarrollo-de-los-futuros-cientificos-e-ingenieros-mexicanos/",
+        "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/UDLAP_alienta_el_desarrollo_de_cientificos_ingenieros_3.jpg",
+        "categoria": "Ciberseguridad",
+        "fecha_publicacion": "2025-06-08"
+      },
+      {
+        "id": 9,
+        "titulo": "Entrenadora Azteca UDLAP figura en el Mundial de Taekwondo",
+        "url": "https://blog.udlap.mx/blog/2025/06/05/entrenadora-azteca-udlap-figura-en-el-mundial-de-taekwondo/",
+        "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/Entrenadora_Azteca_UDLAP_figura_en_el_Mundial_de_Taekwondo_2.jpg",
+        "categoria": "Deportes",
+        "fecha_publicacion": "2025-06-05"
+      },
+      {
+        "id": 10,
+        "titulo": "La reconocida poeta y ensayista Carla Faesler dialoga con jóvenes estudiantes de preparatoria y de la UDLAP",
+        "url": "https://blog.udlap.mx/blog/2025/06/04/la-reconocida-poeta-y-ensayista-carla-faesler-dialoga-con-jovenes-estudiantes-de-preparatoria-y-de-la-udlap/",
+        "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/Carla_Faesler_dialoga_con_estudiantes_de_preparatoria_y_la_UDLAP_1.jpg",
+        "categoria": "Ciberseguridad",
+        "fecha_publicacion": "2025-06-04"
+      },
+      {
+          "id": 11,
+          "titulo": "Los Aztecas UDLAP serán atletas olímpicos nacionales",
+          "url": "https://blog.udlap.mx/blog/2025/05/09/12-estudiantes-de-la-universidad-de-las-americas-puebla-dieron-su-mayor-esfuerzo-en-la-etapa-macro-regional-de-olimpiada-de-atletismo-para-ganar-su-boleto-a-representar-a-sus-respectivos-estados-de-o/",
+          "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/05/atletas-udlap-1.jpg",
+          "categoria": "Ciberseguridad",
+          "fecha_publicacion": "2025-06-03"
+        },
+        {
+          "id": 12,
+          "titulo": "UDLAP y CECAMBA presentan concierto conjunto",
+          "url": "https://blog.udlap.mx/blog/2025/05/29/udlap-y-cecamba-presentan-concierto-conjunto/",
+          "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/05/UDLAP_y_CECAMBA_concierto_2.jpg",
+          "categoria": "Ciberseguridad",
+          "fecha_publicacion": "2025-05-29"
+        },
+        {
+            "id": 13,
+            "titulo": "La Licenciatura en Diseño de Productos será clave para el futuro de la innovación y la industria",
+            "url": "https://blog.udlap.mx/blog/2025/06/09/la-licenciatura-en-diseno-de-productos-sera-clave-para-el-futuro-de-la-innovacion-y-la-industria/",
+            "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/diseno-de-productos-udlap-1.jpg",
+            "categoria": "Tecnología",
+            "fecha_publicacion": "2025-06-09"
+          },
+          {
+            "id": 14,
+            "titulo": "La UDLAP alienta el desarrollo de los futuros científicos e ingenieros mexicanos",
+            "url": "https://blog.udlap.mx/blog/2025/06/06/la-udlap-alienta-el-desarrollo-de-los-futuros-cientificos-e-ingenieros-mexicanos/",
+            "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/UDLAP_alienta_el_desarrollo_de_cientificos_ingenieros_3.jpg",
+            "categoria": "Ciberseguridad",
+            "fecha_publicacion": "2025-06-08"
+          },
+          {
+            "id": 15,
+            "titulo": "Entrenadora Azteca UDLAP figura en el Mundial de Taekwondo",
+            "url": "https://blog.udlap.mx/blog/2025/06/05/entrenadora-azteca-udlap-figura-en-el-mundial-de-taekwondo/",
+            "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/Entrenadora_Azteca_UDLAP_figura_en_el_Mundial_de_Taekwondo_2.jpg",
+            "categoria": "Deportes",
+            "fecha_publicacion": "2025-06-05"
+          },
+          {
+            "id": 16,
+            "titulo": "La reconocida poeta y ensayista Carla Faesler dialoga con jóvenes estudiantes",
+            "url": "https://blog.udlap.mx/blog/2025/06/04/la-reconocida-poeta-y-ensayista-carla-faesler-dialoga-con-jovenes-estudiantes-de-preparatoria-y-de-la-udlap/",
+            "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/06/Carla_Faesler_dialoga_con_estudiantes_de_preparatoria_y_la_UDLAP_1.jpg",
+            "categoria": "Ciberseguridad",
+            "fecha_publicacion": "2025-06-04"
+          },
+          {
+              "id": 17,
+              "titulo": "Los Aztecas UDLAP serán atletas olímpicos nacionales",
+              "url": "https://blog.udlap.mx/blog/2025/05/09/12-estudiantes-de-la-universidad-de-las-americas-puebla-dieron-su-mayor-esfuerzo-en-la-etapa-macro-regional-de-olimpiada-de-atletismo-para-ganar-su-boleto-a-representar-a-sus-respectivos-estados-de-o/",
+              "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/05/atletas-udlap-1.jpg",
+              "categoria": "Ciberseguridad",
+              "fecha_publicacion": "2025-06-03"
+            },
+            {
+              "id": 18,
+              "titulo": "UDLAP y CECAMBA presentan concierto conjunto",
+              "url": "https://blog.udlap.mx/blog/2025/05/29/udlap-y-cecamba-presentan-concierto-conjunto/",
+              "imagen_url": "https://blog.udlap.mx/wp-content/uploads/2025/05/UDLAP_y_CECAMBA_concierto_2.jpg",
+              "categoria": "Ciberseguridad",
+              "fecha_publicacion": "2025-05-29"
+            }
+        
+  ]
+  

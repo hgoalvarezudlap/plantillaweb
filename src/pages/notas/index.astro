@@ -1,0 +1,77 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import articulos from '../../../public/json/articulos.json';
+---
+
+    
+<Layout title="Artículos UDLAP" description="Artículos UDLAP">
+ 
+    <h1>Artículos del Blog</h1>
+    
+    <div class="articles-grid" id="articles-grid">
+      </div>
+
+    <div class="pagination-controls">
+      <button id="prev-btn">Anterior</button>
+      <span id="page-indicator"></span>
+      <button id="next-btn">Siguiente</button>
+    </div>
+
+    <script define:vars={{ articles: articulos }}>
+      const articlesGrid = document.getElementById('articles-grid');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+      const pageIndicator = document.getElementById('page-indicator');
+      
+      const itemsPerPage = 9;
+      let currentPage = 1;
+      const totalPages = Math.ceil(articles.length / itemsPerPage);
+
+      function renderPage(page) {
+        currentPage = page;
+        articlesGrid.innerHTML = ''; // Limpiar la vista actual
+
+        const start = (page - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const articlesToRender = articles.slice(start, end);
+
+        let content = '';
+        for (const articulo of articlesToRender) {
+          content += `
+            <div class="articulocard">
+              <a href="${articulo.url}" target="_blank">
+              <img src="${articulo.imagen_url}" alt="${articulo.titulo}" />
+              </a>
+              <div class="articulocard-content">
+                <h3>${articulo.titulo}</h3>
+                <a href="${articulo.url}" target="_blank">Leer más →</a>
+              </div>
+            </div>
+          `;
+        }
+        articlesGrid.innerHTML = content;
+
+        // Actualizar controles
+        pageIndicator.textContent = `Página ${currentPage} de ${totalPages}`;
+        prevBtn.disabled = currentPage === 1;
+        nextBtn.disabled = currentPage === totalPages;
+      }
+
+      prevBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+          renderPage(currentPage - 1);
+        }
+      });
+
+      nextBtn.addEventListener('click', () => {
+        if (currentPage < totalPages) {
+          renderPage(currentPage + 1);
+        }
+      });
+      
+      // Renderizar la página inicial
+      renderPage(1);
+    </script>
+  
+
+</Layout>

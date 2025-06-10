@@ -35,9 +35,6 @@ a:hover {
 }
 
 
-
-
-
 .contenedorcontenido {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,7 +42,7 @@ a:hover {
 }
 
 .contenedorelemento {
-    background-color: var(--color-fondo-elementos);
+    background-color: var(--color-fondo-contenedor);
     padding: 20px;
     border-radius: 25px;
     margin-top: 20px;
@@ -113,6 +110,16 @@ a:hover {
 }
 
 
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    min-height: 350px;
+    /* Altura mínima para evitar saltos de layout */
+    background-color: var(--color-fondo-contenedor);
+    border-radius: 15px;
+}
 
 
 .articulocard {
@@ -120,14 +127,57 @@ a:hover {
     flex-direction: column;
     gap: 10px;
     margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: var(--color-fondo-contenedor);
+
 }
 
 .articulocard img {
     width: 100%;
-    height: 150px;
     object-fit: cover;
 }
 
+.articulocard h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.articulocard a {
+    font-size: 1.1rem;
+    color: var(--color-primario);
+
+
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.pagination-controls button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--color-primario);
+    background-color: white;
+    color: var(--color-primario);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+    background-color: var(--color-primario);
+    color: white;
+}
+
+.pagination-controls button:disabled {
+    border-color: #ccc;
+    color: #ccc;
+    cursor: not-allowed;
+}
 
 /* ---- Estilos para el menu ---- */
 
@@ -141,6 +191,7 @@ a:hover {
     padding: 15px 20px;
     position: relative;
     border-radius: 15px;
+    height: 120px;
 }
 
 /* Botón hamburguesa oculto en pantallas grandes */
@@ -168,6 +219,26 @@ a:hover {
 .menu a:hover {
     text-decoration: underline;
 }
+
+
+
+
+.estilofooter {
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+.espacio{
+    height: 70px;
+}
+
+
 
 
 

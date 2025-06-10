@@ -3,7 +3,9 @@ const { titulo, imagenSrc, imagenAlt, enlace } = Astro.props;
 ---
 
 <div class="articulocard">
+  <a href={enlace}> 
   <img src={imagenSrc} alt={imagenAlt} />
+  </a>
   <h3>{titulo}</h3>
   <a href={enlace}>Leer más</a>
 </div>

@@ -3,13 +3,13 @@ import ArticuloCard from "./ArticuloCard.astro";
 import articulos from "../../public/json/articulos.json";
 
 // Tomar los últimos 3 elementos sin importar la fecha
-const ultimosArticulos = articulos.slice(-3).reverse();
+const ultimosArticulos = articulos.slice(-2).reverse();
 ---
 
 <div class="contenedorelemento">    
   <h2>Últimos Artículos</h2>
 
-  <div class="gridtrescolumnas">
+  <div class="griddoscolumnas">
     {
       ultimosArticulos.map((articulo) => (
         <ArticuloCard

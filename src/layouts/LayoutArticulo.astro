@@ -1,0 +1,80 @@
+---
+import Header from "../components/Menu.astro";
+import Footer from "../components/Footer.astro";
+import DosArticulos from "../components/DosArticulos.astro";
+
+const {
+	title = "Mi sitio Astro",
+	date = new Date().toLocaleDateString("es-MX"),
+	month = new Date().toLocaleDateString("es-MX", { month: "long" }),
+	category = "Ciencia y Tecnología",
+	heroImage = "https://blog.udlap.mx/wp-content/uploads/2025/05/UDLAP_y_CECAMBA_concierto_2.jpg",
+} = Astro.props as {
+	title?: string;
+	date?: string;
+	month?: string;
+	category?: string;
+	heroImage?: string;
+};
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="/css/estilos.css" />
+		<link rel="stylesheet" href="/css/estilosarticulos.css" />
+		<title>Astro Basics</title>
+	</head>
+	<body>
+		<Header />
+
+		<div class="article-container">
+
+			<img src={heroImage} alt={title} />
+
+			<h1>{title}</h1>
+
+
+			<div class="article-meta">
+				<span class="date">{month}</span> - 
+				<span class="category">{category}</span>
+			</div>
+			<br>
+
+
+			
+			
+
+
+
+			<div class="article-content">
+				<slot />
+			</div>
+
+			
+		</div>
+
+		<div class="article-container">
+			<DosArticulos />
+		</div>
+
+		
+
+		<Footer />
+		<script is:inline>
+			document.addEventListener("DOMContentLoaded", function () {
+				const toggle = document.querySelector(".menu-toggle");
+				const menu = document.querySelector(".menu");
+				if (toggle && menu) {
+					toggle.addEventListener("click", () => {
+						menu.classList.toggle("active");
+					});
+				}
+			});
+		</script>
+	</body>
+</html>
